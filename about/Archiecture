@@ -1,0 +1,28 @@
+Architecture:
+The game can be divided into several components:
+
+User Interface: This component handles user input and displays game information.
+
+Game Logic: It manages the core game rules, generates the secret number, and checks the user's guesses.
+
+Random Number Generation: You'll need to generate a random 4-digit number for the user to guess.
+
+Data Storage (Optional): You can store high scores or other game data in files or a database.
+
+
+
+Technologies:
+
+Python: Python is the primary programming language for implementing the game logic.
+
+User Interface Libraries:
+
+Tkinter: For creating a simple graphical user interface.
+Console Input/Output: For a text-based interface.
+Random Number Generation:
+
+The built-in random module in Python can be used to generate a random 4-digit number.
+Data Storage (Optional):
+
+File I/O: You can use Python's file handling capabilities to read and write data to text files.
+SQLite: If you want a more structured approach, you can use the SQLite library for a simple database to store high scores.
